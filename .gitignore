@@ -1,0 +1,31 @@
+# --- IntelliJ ---
+.idea/
+*.iml
+out/
+
+# --- Python & PySpark ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+*.log
+
+# --- Spark Local Outputs ---
+metastore_db/
+derby.log
+spark-warehouse/
+checkpoint/
+
+# --- Operating System Junk ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
+
+# --- Build Tools (if applicable) ---
+target/
+build/
+.gradle/
