@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Hadoop
+tmp/
+logs/
+
+# Generated datasets
+data_gen/
+
+# Parquet outputs
+*.parquet
+
+
+# Local files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
